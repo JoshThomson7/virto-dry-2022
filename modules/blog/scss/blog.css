@@ -68,12 +68,12 @@ body.blog .blog-results-category {
 body.blog .blog-results-category h4 {
   display: block;
   font-size: 1.35rem;
-  color: #535353;
+  color: #211e1e;
   margin-bottom: 20px;
   font-weight: 600;
 }
 body.blog .blog-results-category h4 a {
-  color: #535353;
+  color: #211e1e;
 }
 body.blog .blog-results-category h4 a:hover {
   text-decoration: underline;
@@ -107,7 +107,7 @@ body.blog .social__blogs .social__blog .social__blog__overlay {
 }
 @media (max-width: 700px) {
   body.blog .social__blogs .social__blog .social__blog__overlay:before {
-    background: rgba(83, 83, 83, 0.9);
+    background: rgba(33, 30, 30, 0.9);
   }
 }
 body.blog .social__blogs .social__blog .social__blog__overlay .caption {
@@ -123,11 +123,11 @@ body.blog .social__blogs .social__blog .social__blog__overlay .caption {
   align-items: center;
 }
 body.blog .social__blogs .social__blog .social__blog__overlay .caption__date {
-  color: #535353;
+  color: #211e1e;
   text-align: center;
   padding: 10px 20px 0 0;
   margin-right: 10px;
-  border-right: 1px solid #535353;
+  border-right: 1px solid #211e1e;
   min-width: 80px;
 }
 body.blog .social__blogs .social__blog .social__blog__overlay .caption__date__day {
@@ -153,7 +153,7 @@ body.blog .social__blogs .social__blog .social__blog__overlay .caption__content 
 }
 body.blog .social__blogs .social__blog .social__blog__overlay .caption__content h6 {
   font-size: 0.85rem;
-  color: #3f3f42;
+  color: #141212;
   padding-bottom: 10px;
 }
 body.blog .social__blogs .social__blog .social__blog__overlay .caption__content h6 span {
@@ -165,25 +165,25 @@ body.blog .social__blogs .social__blog .social__blog__overlay .caption__content 
   font-size: 1.3rem;
   font-weight: 600;
   line-height: 1.4;
-  color: #535353;
+  color: #211e1e;
   margin: 0 0 10px;
   position: relative;
   padding: 0;
 }
 body.blog .social__blogs .social__blog .social__blog__overlay .caption__content h3 span {
   font-size: 16px;
-  color: #a0a0a0;
+  color: #716767;
   position: absolute;
   right: 0;
   top: 5px;
 }
 body.blog .social__blogs .social__blog .social__blog__overlay .caption__content p {
   font-size: 0.8rem;
-  color: #606060;
+  color: #2e2a2a;
   line-height: 1.5;
 }
 body.blog .social__blogs .social__blog .social__blog__overlay:hover:before {
-  background: rgba(83, 83, 83, 0.9);
+  background: rgba(33, 30, 30, 0.9);
 }
 body.blog .social__blogs .social__blog.big {
   width: 64.0350877193%;
@@ -266,19 +266,19 @@ body.blog .blog__post a .blog__post__content {
 }
 body.blog .blog__post a .blog__post__content h5 {
   font-size: 0.95rem;
-  color: #535353;
+  color: #211e1e;
   padding-bottom: 10px;
   margin: 0;
 }
 body.blog .blog__post a .blog__post__content h5 span {
   font-size: 0.7rem;
   padding-top: 10px;
-  color: #59575c;
+  color: #2e2a2a;
   display: block;
 }
 body.blog .blog__post a .blog__post__content p {
   font-size: 0.8rem;
-  color: #4c4b4f;
+  color: #211e1e;
   line-height: 18px;
   margin: 0;
 }
@@ -286,7 +286,7 @@ body.blog .blog__post:hover {
   background: none;
 }
 body.blog .blog__post:hover h5 {
-  color: #535353;
+  color: #211e1e;
 }
 body.blog .blog__sidebar {
   padding-top: 20px;
@@ -326,7 +326,7 @@ body.blog .blog__sidebar article .widget__heading .widget__icon {
 body.blog .blog__sidebar article .widget__heading h3 {
   font-size: 24px;
   font-weight: normal;
-  color: #99d3d5;
+  color: #0056a6;
   line-height: 22px;
   letter-spacing: -0.5px;
   margin-bottom: 0;
@@ -349,15 +349,15 @@ body.blog .blog__sidebar article .widget__content ul li {
 body.blog .blog__sidebar article .widget__content ul li a {
   display: block;
   font-size: 16px;
-  border-bottom: 1px solid #4c4b4f;
+  border-bottom: 1px solid #211e1e;
   padding: 10px;
-  color: #4c4b4f;
+  color: #211e1e;
 }
 body.blog .blog__sidebar article .widget__content ul li a:hover {
-  color: #99d3d5;
+  color: #0056a6;
 }
 body.blog .blog__sidebar article .widget__content ul li.current_page_item a {
-  color: #99d3d5;
+  color: #0056a6;
   font-weight: 600;
 }
 body.blog .blog__sidebar article .widget__content .widget__box {
@@ -373,7 +373,7 @@ body.blog .blog__sidebar article .widget__content .widget__box a img {
   transform: scale(1);
 }
 body.blog .blog__sidebar article .widget__content .widget__box a span {
-  background: #535353;
+  background: #211e1e;
   opacity: 0.8;
   padding: 10px;
   color: #fff;
@@ -386,7 +386,7 @@ body.blog .blog__sidebar article .widget__content .widget__box a span {
   z-index: 10;
 }
 body.blog .blog__sidebar article .widget__content .widget__box a:hover span {
-  background: #99d3d5;
+  background: #0056a6;
 }
 body.blog .blog__sidebar article .widget__content .widget__box a:hover img {
   transition: all 0.5s ease;
@@ -399,12 +399,12 @@ body.blog .blog__sidebar article .tagcloud a {
   padding: 5px 10px;
   color: #868896;
   border-radius: 10px;
-  border: 1px solid #4c4b4f;
+  border: 1px solid #211e1e;
   margin: 0 3px 3px 0;
 }
 body.blog .blog__sidebar article .tagcloud a:hover {
-  color: #99d3d5;
-  border: 1px solid #99d3d5;
+  color: #0056a6;
+  border: 1px solid #0056a6;
 }
 body.blog .blog__single {
   padding-right: 40px;
@@ -433,7 +433,7 @@ body.blog .blog__single article h5 {
 body.blog .blog__single article h5 span {
   display: block;
   font-size: 20px;
-  color: #4c4b4f;
+  color: #211e1e;
   margin-top: 10px;
 }
 body.blog .blog__single article h5 span i {
@@ -454,7 +454,7 @@ body.blog .blog__title {
 }
 body.blog .blog__title h2 {
   font-size: 34px;
-  color: #535353;
+  color: #211e1e;
   padding-bottom: 15px;
 }
 body.blog header.header {
@@ -534,7 +534,7 @@ body.blog__single .blog__single article h5 {
 body.blog__single .blog__single article h5 span {
   display: block;
   font-size: 20px;
-  color: #4c4b4f;
+  color: #211e1e;
   margin-top: 10px;
 }
 body.blog__single .blog__single article h5 span i {
@@ -598,7 +598,7 @@ body.blog__archive .blog__sidebar article .widget__heading .widget__icon {
 body.blog__archive .blog__sidebar article .widget__heading h3 {
   font-size: 24px;
   font-weight: normal;
-  color: #99d3d5;
+  color: #0056a6;
   line-height: 22px;
   letter-spacing: -0.5px;
   margin-bottom: 0;
@@ -621,15 +621,15 @@ body.blog__archive .blog__sidebar article .widget__content ul li {
 body.blog__archive .blog__sidebar article .widget__content ul li a {
   display: block;
   font-size: 16px;
-  border-bottom: 1px solid #4c4b4f;
+  border-bottom: 1px solid #211e1e;
   padding: 10px;
-  color: #4c4b4f;
+  color: #211e1e;
 }
 body.blog__archive .blog__sidebar article .widget__content ul li a:hover {
-  color: #99d3d5;
+  color: #0056a6;
 }
 body.blog__archive .blog__sidebar article .widget__content ul li.current_page_item a {
-  color: #99d3d5;
+  color: #0056a6;
   font-weight: 600;
 }
 body.blog__archive .blog__sidebar article .widget__content .widget__box {
@@ -645,7 +645,7 @@ body.blog__archive .blog__sidebar article .widget__content .widget__box a img {
   transform: scale(1);
 }
 body.blog__archive .blog__sidebar article .widget__content .widget__box a span {
-  background: #535353;
+  background: #211e1e;
   opacity: 0.8;
   padding: 10px;
   color: #fff;
@@ -658,7 +658,7 @@ body.blog__archive .blog__sidebar article .widget__content .widget__box a span {
   z-index: 10;
 }
 body.blog__archive .blog__sidebar article .widget__content .widget__box a:hover span {
-  background: #99d3d5;
+  background: #0056a6;
 }
 body.blog__archive .blog__sidebar article .widget__content .widget__box a:hover img {
   transition: all 0.5s ease;
@@ -671,12 +671,12 @@ body.blog__archive .blog__sidebar article .tagcloud a {
   padding: 5px 10px;
   color: #868896;
   border-radius: 10px;
-  border: 1px solid #4c4b4f;
+  border: 1px solid #211e1e;
   margin: 0 3px 3px 0;
 }
 body.blog__archive .blog__sidebar article .tagcloud a:hover {
-  color: #99d3d5;
-  border: 1px solid #99d3d5;
+  color: #0056a6;
+  border: 1px solid #0056a6;
 }
 
 .blog__home .blog__sidebar {
@@ -691,7 +691,7 @@ body.blog__archive .blog__sidebar article .tagcloud a:hover {
   }
 }
 .blog__home .blog__sidebar .max__width article {
-  width: calc(100/3);
+  width: 33.3333333333;
 }
 @media (max-width: 1024px) {
   .blog__home .blog__sidebar .max__width article {
