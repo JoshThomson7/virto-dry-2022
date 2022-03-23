@@ -371,7 +371,7 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
                             }
                         }
             
-                        ul { position:absolute; top:100%; padding:0; width:100%; max-width:250px; background: #fff; z-index: 3; text-align: left; padding: 10px; display: none; flex-direction: column; box-shadow: 0 5px 10px rgba(black, 0.2); margin: 0;
+                        ul { position:absolute; top:84px; padding:0; width:100%; max-width:250px; background: #fff; z-index: 3; text-align: left; padding: 10px; display: none; flex-direction: column; box-shadow: 0 5px 10px rgba(black, 0.2); margin: 0;
 
                             li { margin:0; border-top:none;
 
@@ -557,10 +557,6 @@ footer { padding: 0; position: relative;
                 
                 @include breakpoint(papabear) { width:100%; border-bottom: 1px $border solid;}
 
-                &.find-us{
-                    margin-bottom: 30px; border-bottom: none;
-                }
-
                 h5 { font-size: 20px; font-weight: 600; color: $white; padding-bottom:20px;
                     @include breakpoint(papabear) { padding:20px 0; cursor:pointer;}
 
@@ -622,8 +618,8 @@ footer { padding: 0; position: relative;
                     }
                 }
 
-                iframe{
-                    border: 2px solid $secondary!important;
+                .button{
+                    display: inline-block;
                 }
                 
             }

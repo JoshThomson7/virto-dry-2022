@@ -40,6 +40,12 @@ $grid_box_spacing = get_sub_field('grid_box_spacing') ? ' style="border: '.get_s
             $grid_box_img = '<div class="grid__box__image" style="background-image:url('.$grid_box_img['url'].');">'.$link_open.$link_close.'</div>';
         }
 
+        // where content sits
+        $content_placement = '';
+        if(get_sub_field('grid_box_content_below_image')) {
+            $content_placement = ' content_below';
+        }
+
         // overlay
         $overlay = '';
         $overlay_opacity = '';
@@ -50,7 +56,7 @@ $grid_box_spacing = get_sub_field('grid_box_spacing') ? ' style="border: '.get_s
             $grid_box_img_align = '';
         }
     ?>
-        <article class="<?php echo $grid_box_num.$grid_box_img_align.$overlay; ?>"<?php echo $grid_box_spacing; ?>>
+        <article class="<?php echo $grid_box_num.$grid_box_img_align.$overlay.$content_placement; ?>"<?php echo $grid_box_spacing; ?>>
             <?php echo $overlay_link_open; ?>
             <?php echo $grid_box_img; ?>
 

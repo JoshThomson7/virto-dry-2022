@@ -33,15 +33,8 @@
 
                 </article>
 
-                <article class="footer__menu find-us">
-                    <h5>Find Us</h5>
-
-                    <div class="contact">
-                        <a href="https://www.google.com/maps/place/Fraser+Optical/@57.4830951,-4.4629993,17z/data=!3m1!4b1!4m5!3m4!1s0x488f0bf2d9a6a16d:0x5d6591b623e58d5c!8m2!3d57.4830939!4d-4.460813" target="_blank">,<br>
-                        ,<br>
-                        ,<br>
-                        </a>
-                    </div>
+                <article>
+                    <a href="" class="button secondary">Book Now</a>
                 </article>
 
             </div><!-- max__width -->

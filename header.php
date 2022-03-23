@@ -31,8 +31,8 @@
             <div class="pre__header">
                 <div class="max__width">
                     <ul class="contact">
-                        <li><i class="fa fa-phone"></i><a href="tel:0123456789">0123 456 789</a></li>
-                        <li><i class="fa fa-envelope"></i><a href="mailto:info@virtodry.com">Email Us</a></li>
+                        <li><i class="fa fa-phone"></i><a href="tel:07861684761">07861 684761</a></li>
+                        <li><i class="fa fa-envelope"></i><a href="mailto:info.virtodry@gmail.com">info.virtodry@gmail.com</a></li>
                     </ul>
 
                     <div class="book_button">
