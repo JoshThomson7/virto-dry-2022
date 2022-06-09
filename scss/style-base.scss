@@ -940,3 +940,13 @@ footer { padding: 0; position: relative;
         }
     }
 }
+
+.accordion-flex{
+    display: flex;
+    @include breakpoint(mamabear){flex-direction: column;}
+
+    img{
+        margin-right: 10px;
+        @include breakpoint(mamabear){margin-right: 0; margin-bottom: 10px;}
+    }
+} 
