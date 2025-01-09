@@ -5,7 +5,7 @@
     </div><!-- nav__background -->
 
     <div class="oc__nav__content">
-        <!-- <a href="#" class="oc__nav__trigger"><i class="fal fa-times"></i></a> -->
+        <a href="#" class="oc__nav__trigger"><i class="fal fa-times"></i></a>
         
         <article class="oc__nav__content__panel panel__left">
             <div class="asm">

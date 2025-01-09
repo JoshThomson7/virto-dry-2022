@@ -65,6 +65,12 @@
                 .woocommerce-loop-product__title{text-align: center; color: $secondary; font-size: 20px;}
                 .price{text-align: center; color: black; font-size: 16px;}
                 .button{display: flex; justify-content: center; background: $secondary!important; color: white!important;}
+
+                a{
+                    &.added_to_cart{
+                        justify-content: center; display: flex; margin: 10px 0; color: $secondary;
+                    }
+                }
             }
         }
     }
@@ -78,7 +84,7 @@
         .woocommerce-breadcrumb{display: none;}
 
         .product{
-            display: flex; flex-wrap: wrap; align-items: center;
+            display: flex; flex-wrap: wrap; align-items: flex-start;
 
             .woocommerce-product-gallery{
                 .woocommerce-product-gallery__image{
@@ -87,6 +93,9 @@
             }
 
             .summary{
+                padding-left: 40px; padding-top: 40px;
+                @include breakpoint(ipad){padding-left: 0; padding-top: 10px;}
+
                 .product_title{
                     color: $secondary; font-size: 34px;
                 }
@@ -117,7 +126,7 @@
 
                         td{
                             select{font-family: $primaryFont;}
-                            .reset_variations{color: $secondary;}
+                            .reset_variations{color: $secondary; color: white; padding: 10px 30px;}
                         }
                     }
 
@@ -125,6 +134,18 @@
 
                 .woocommerce-product-details__short-description{
                     margin: 40px 0 20px; line-height: 24px;
+
+                    h2{
+                        margin-top: 20px; font-size: 20px; color: $secondary;
+                    }
+
+                    ul{
+                        padding-left: 20px; margin-top: 20px;
+
+                        li{
+                            list-style: disc; 
+                        }
+                    }
                 }
 
                 .single_variation_wrap{
@@ -152,6 +173,73 @@
         .woocommerce-tabs, .related{display: none;}
     }
     
+    &.woocommerce{
+        .thumbnails{
+            @include breakpoint(ipad){
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+// CHECKOUT
+.woocommerce-checkout{
+    .woocommerce-input-wrapper{
+        input, textarea{
+            height: 28px; background-color: #fff; border: 1px solid #aaa; border-radius: 4px; font-family: $primaryFont;
+        }
+    }
+
+    #payment {
+        ul.payment_methods{
+            li{
+                &::marker{content: none;}
+
+                // .payment_box{
+                //     iframe{
+                //         input{
+                //             height: 28px; background-color: #fff; border: 1px solid #aaa; border-radius: 4px; font-family: $primaryFont;
+                //         }
+                //     }
+                // }
+            }
+        }
+
+        #place_order{
+            background: $secondary!important;
+        }
+    }
+}
+
+.woocommerce-checkout #payment ul.payment_methods li{
+    list-style: none!important;
+}
+
+// WOO MESSAGE ADD TO CART
+.woocommerce-message{
+    display: flex; flex-direction: column; text-align: center;
+
+    .button{
+        margin-top: 10px; background: $secondary; color: white;
+    }
+}
+
+// DROPDOWN TEXT
+.select2-container .select2-selection--single .select2-selection__rendered{
+    font-size: 14px; padding-left: 0;
+}
+
+// CHECKOUT
+.woocommerce-additional-fields, #order_review_heading{margin-top: 20px;}
+
+// PRODUCT ZOOM
+.yith_magnifier_thumbnail a img{
+	max-height: 120px; height: 100% !important; width: auto !important; margin: 0 auto;
+}
+
+// SLIDER
+.single-product.woocommerce .thumbnails #slider-prev, .single-product.woocommerce .thumbnails #slider-next{
+    display: block!important;
 }
 
 // BASKET
@@ -319,7 +407,7 @@ img { max-width: 100%; width: auto; height: auto; vertical-align: middle; border
 /**
 * Buttons
 */
-a.button, button.button, button, input[type=submit], input[type=button] { display: flex; background: $secondary; align-self: flex-start; transition: all .4s ease; padding: 18px 40px 18px; cursor: pointer; border: none;
+a.button, button.button, button, input[type=submit], input[type=button] { color: white; display: flex; background: $secondary; align-self: flex-start; transition: all .4s ease; padding: 18px 40px 18px; cursor: pointer; border: none;
     span { font-size: 16px; text-align: center; color: $white; line-height: 16px; font-family: $primaryFont;
     }
 
@@ -371,7 +459,7 @@ a.button, button.button, button, input[type=submit], input[type=button] { displa
 
 ------------------------------------------- */
 
-header.header { width:100%; transition: top .3s ease; position: sticky; z-index: 999999999; top: 0;
+header.header { width:100%; transition: top .3s ease; position: sticky; z-index: 999; top: 0;
 
     .pre__header{
         padding: 10px 0; background: $secondary;
@@ -415,6 +503,8 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
                 .book{ 
                     display: flex; background: $white; align-self: flex-start; transition: all 0.4s ease; padding: 12px 30px; cursor: pointer; border: none; color: $secondary;
 
+                    @include breakpoint(teenbear){padding: 10px 25px;}
+
                     &:hover { transition: all .4s ease; background: $primary; box-shadow: 0 3px 30px rgba(black, 0.2); transform: scale(1.03); color: $white; 
                         span{
                             color: $white;
@@ -454,7 +544,7 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
                 a { display:block;
                     img { width: 250px; align-self:center; margin: 0 auto; 
                         @include breakpoint(papabear) { width: 120px;}
-                        @include breakpoint(teenbear) { width: 80px;}
+                        @include breakpoint(teenbear) { width: 100px;}
                     }
                 }
             }
@@ -570,7 +660,7 @@ header.header { width:100%; transition: top .3s ease; position: sticky; z-index:
     }
 
     &.sticky { top: 0;}
-    &.not-sticky { top: -150px;}
+    &.not-sticky { top: -165px;}
 
     &.reset {        
         .logo { 
@@ -677,8 +767,9 @@ footer { padding: 0; position: relative;
 
             article {
                 width: 25%;
-                
-                @include breakpoint(papabear) { width:100%; border-bottom: 1px $border solid;}
+                @include breakpoint(papabear) { width:100%; border-bottom: 1px $border solid;
+                    &:last-child{border-bottom: none;}
+                }
 
                 h5 { font-size: 20px; font-weight: 600; color: $white; padding-bottom:20px;
                     @include breakpoint(papabear) { padding:20px 0; cursor:pointer;}
@@ -692,6 +783,10 @@ footer { padding: 0; position: relative;
 
                 ul { margin:0; padding:0;
                     @include breakpoint(papabear) { font-size:16px; padding-bottom:20px;}
+
+                    &.social-wrapper{
+                        @include breakpoint(papabear) { padding-bottom:50px;} 
+                    }
 
                     li { list-style:none; padding-bottom:10px; color: $white; display: flex; font-size: 14px;
                         @include breakpoint(papabear) { padding-bottom:10px;}
@@ -743,6 +838,9 @@ footer { padding: 0; position: relative;
 
                 .button{
                     display: inline-block;
+
+                    @include breakpoint(papabear){margin: 20px 0 0;}
+                    @include breakpoint(teenbear){padding: 12px 25px;}
                 }
                 
             }
@@ -757,6 +855,7 @@ footer { padding: 0; position: relative;
 
             img{
                 width: 250px; margin-bottom: 20px;
+                @include breakpoint(teenbear) {width: 150px;}
             }
             
             p { font-size:14px; line-height:20px; color: $text;

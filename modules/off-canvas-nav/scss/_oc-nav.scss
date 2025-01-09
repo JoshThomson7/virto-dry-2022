@@ -13,7 +13,7 @@
     }
 
     .panel__left { width: 40%; padding: 160px 60px 0 0; transform: translateX(-1200px);
-        @include breakpoint(brotherbear) { width: 100%; background: #fff; padding: 165px 20px 40px;}
+        @include breakpoint(brotherbear) { width: 100%; background: #fff; padding: 40px 20px 40px;}
     }
     .panel__right { width: 60%; padding: 100px 0 40px 60px; transform: translateX(1200px); displaY: none;
         @include breakpoint(brotherbear) { width: 100%; background: $primary; padding: 40px 20px;}
@@ -23,8 +23,8 @@
 
         @include breakpoint(brotherbear) { flex-direction: column; padding: 0;}
 
-        .oc__nav__trigger { display: block; color: $secondary; position: absolute; right: 20px; top: 35px; z-index: 10;
-            i { font-size: 38px;}
+        .oc__nav__trigger { display: block; color: $secondary; position: absolute; right: 20px; top: 20px; z-index: 10;
+            i { font-size: 32px;}
         }
 
         &__panel { width: 50%; transition: all .5s ease; position: relative;
@@ -59,7 +59,7 @@
         }
 
         .oc__nav__content {
-            article { transform: translateX(0); transition: all .5s ease .2s;
+            article { transform: translateX(0); transition: all .5s ease .2s; border-bottom: 10px solid $secondary;
                 .logo { opacity: 1; visibility: visible; transition: all .5s ease .8s;}
             }
         }

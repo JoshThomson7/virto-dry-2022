@@ -672,11 +672,11 @@ section.team__filters .team__search__form {
 }
 section.team__filters .team__search__form input[type=text] {
   font-family: "Museo 300", sans-serif;
-  border: 1px solid #e1e9ee;
+  border: 1px solid rgb(224.7727272727, 233.4090909091, 237.7272727273);
   padding: 16px 50px 13px 15px;
   font-size: 16px;
   font-weight: 300;
-  color: #060606;
+  color: rgb(6.2857142857, 5.7142857143, 5.7142857143);
   cursor: pointer;
   margin-right: 20px;
   border-radius: 3px;
@@ -687,19 +687,19 @@ section.team__filters .team__search__form input[type=text] {
 }
 section.team__filters .team__search__form input[type=text]::placeholder {
   opacity: 0.8;
-  color: #060606;
+  color: rgb(6.2857142857, 5.7142857143, 5.7142857143);
 }
 section.team__filters .team__search__form input[type=text]:focus {
-  border-color: #d1dee4;
+  border-color: rgb(208.5454545455, 221.8181818182, 228.4545454545);
   transition: 0.2s ease-in all;
 }
 section.team__filters .team__search__form .select2-container {
   padding: 0;
   font-family: "Museo 300", sans-serif;
-  border: 1px solid #e1e9ee;
+  border: 1px solid rgb(224.7727272727, 233.4090909091, 237.7272727273);
   font-size: 16px;
   font-weight: 300;
-  color: #060606;
+  color: rgb(6.2857142857, 5.7142857143, 5.7142857143);
   cursor: pointer;
   margin-right: 20px;
   border-radius: 3px;
@@ -713,14 +713,14 @@ section.team__filters .team__search__form .select2-container {
   background-size: 21px;
 }
 section.team__filters .team__search__form .select2-container input[type=search] {
-  color: #060606;
+  color: rgb(6.2857142857, 5.7142857143, 5.7142857143);
 }
 section.team__filters .team__search__form .select2-container input[type=search]::placeholder {
   opacity: 0.8;
-  color: #060606;
+  color: rgb(6.2857142857, 5.7142857143, 5.7142857143);
 }
 section.team__filters .team__search__form .select2-container input[type=search]:focus {
-  border-color: #d1dee4;
+  border-color: rgb(208.5454545455, 221.8181818182, 228.4545454545);
   transition: 0.2s ease-in all;
 }
 section.team__filters .team__search__form .select2-container .select2-selection--single,
@@ -738,7 +738,7 @@ section.team__filters .team__search__form .select2-container .select2-selection-
 section.team__filters .team__search__form .select2-container .select2-selection--single .select2-selection__choice,
 section.team__filters .team__search__form .select2-container .select2-selection--multiple .select2-selection__choice {
   background-color: #f1f5f7;
-  border-color: #e1e9ee;
+  border-color: rgb(224.7727272727, 233.4090909091, 237.7272727273);
 }
 section.team__filters .team__search__form .select2-container .select2-selection--single .select2-selection__arrow,
 section.team__filters .team__search__form .select2-container .select2-selection--multiple .select2-selection__arrow {
@@ -1019,7 +1019,7 @@ section.team__filters .team__results .not__found {
 }
 section.team__filters .team__results .not__found figure i {
   font-size: 65px;
-  color: #e1e9ee;
+  color: rgb(224.7727272727, 233.4090909091, 237.7272727273);
   margin-bottom: 20px;
 }
 section.team__filters .team__results .not__found h3 {

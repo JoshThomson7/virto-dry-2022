@@ -34,7 +34,7 @@
                 </article>
 
                 <article>
-                    <a href="" class="button secondary">Book Now</a>
+                    <a href="/book-appointment" class="button secondary">Book Now</a>
                 </article>
 
             </div><!-- max__width -->
@@ -45,7 +45,7 @@
             <div class="subfooter__credits">
                 <img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/img/virto-dry-sized.png" alt="<?php bloginfo('name'); ?>">
                 <p>&copy;<?php bloginfo('name') ?> <?php echo date("Y"); ?></p>
-                <p class="credit"><a href="https://thomson-website-solutions.com/" target="_blank">Website by Thomson Website Solutions</a></p>
+                <!-- <p class="credit"><a href="https://thomson-website-solutions.com/" target="_blank">Website by Thomson Website Solutions</a></p> -->
             </div><!-- subfooter__credits -->
         </div><!-- subfooter -->
             

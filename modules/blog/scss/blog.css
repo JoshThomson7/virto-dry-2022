@@ -153,7 +153,7 @@ body.blog .social__blogs .social__blog .social__blog__overlay .caption__content 
 }
 body.blog .social__blogs .social__blog .social__blog__overlay .caption__content h6 {
   font-size: 0.85rem;
-  color: #141212;
+  color: rgb(19.6428571429, 17.8571428571, 17.8571428571);
   padding-bottom: 10px;
 }
 body.blog .social__blogs .social__blog .social__blog__overlay .caption__content h6 span {
@@ -172,14 +172,14 @@ body.blog .social__blogs .social__blog .social__blog__overlay .caption__content 
 }
 body.blog .social__blogs .social__blog .social__blog__overlay .caption__content h3 span {
   font-size: 16px;
-  color: #716767;
+  color: rgb(113.1428571429, 102.8571428571, 102.8571428571);
   position: absolute;
   right: 0;
   top: 5px;
 }
 body.blog .social__blogs .social__blog .social__blog__overlay .caption__content p {
   font-size: 0.8rem;
-  color: #2e2a2a;
+  color: rgb(46.3571428571, 42.1428571429, 42.1428571429);
   line-height: 1.5;
 }
 body.blog .social__blogs .social__blog .social__blog__overlay:hover:before {
@@ -273,7 +273,7 @@ body.blog .blog__post a .blog__post__content h5 {
 body.blog .blog__post a .blog__post__content h5 span {
   font-size: 0.7rem;
   padding-top: 10px;
-  color: #2e2a2a;
+  color: rgb(46.3571428571, 42.1428571429, 42.1428571429);
   display: block;
 }
 body.blog .blog__post a .blog__post__content p {
@@ -458,7 +458,7 @@ body.blog .blog__title h2 {
   padding-bottom: 15px;
 }
 body.blog header.header {
-  border-bottom: 1px #e1e9ee solid;
+  border-bottom: 1px rgb(224.7727272727, 233.4090909091, 237.7272727273) solid;
 }
 body.blog .blog__wrapper {
   padding: 0;

@@ -5,11 +5,9 @@
     <meta charset="UTF-8">
     <title><?php wp_title( '-', true, 'right' ); ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
     <?php wp_head(); ?>
-
-    <script src="https://pxportal.xeyex.co.uk/ob/x3edabac23446401cfg"></script>
-    <script src="https://pxportal.xeyex.co.uk/ob/x3edabac23446401"></script>
 
 </head>
 
