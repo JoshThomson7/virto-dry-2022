@@ -34,7 +34,7 @@
                     </ul>
 
                     <div class="book_button">
-                        <a href="/book-appointment/" class="book">Book</a>
+                        <a href="https://paywayvltd.com/book-appointment" class="book">Book</a>
                     </div>
                 </div>
             </div>

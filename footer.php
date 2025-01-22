@@ -34,7 +34,7 @@
                 </article>
 
                 <article>
-                    <a href="/book-appointment" class="button secondary">Book Now</a>
+                    <a href="https://paywayvltd.com/book-appointment" class="button secondary">Book Now</a>
                 </article>
 
             </div><!-- max__width -->

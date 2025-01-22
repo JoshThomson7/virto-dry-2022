@@ -24,5 +24,6 @@ include('modules/advanced-testimonials/functions/at-functions.php');
 add_action( 'after_setup_theme', 'yourtheme_woocommerce_support' );
 function yourtheme_woocommerce_support() {
     add_theme_support( 'woocommerce' );
-}
+};
+
 ?>
