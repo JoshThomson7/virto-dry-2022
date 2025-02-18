@@ -9,7 +9,7 @@
         
         article { display: flex; align-items: center; flex:1 0 280px; position: relative; overflow: hidden;
 
-            .grid__box__image { background-size: cover; background-position: center; background-repeat: no-repeat; width: percentage(1/2); min-height: 125px; position: relative; width: 100%; transition: all .8s ease; transform: scale(1);
+            .grid__box__image { background-size: cover; background-position: center; background-repeat: no-repeat; width: percentage(1/2); min-height: 250px; position: relative; width: 100%; transition: all .8s ease; transform: scale(1);
                 a { display: block; width: 100%; height: 100%; position: absolute; top:0; left:0;}
             }
 
