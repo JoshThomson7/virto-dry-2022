@@ -29,7 +29,7 @@
             <div class="pre__header">
                 <div class="max__width">
                     <ul class="contact">
-                        <li><i class="fa fa-phone"></i><a href="tel:07861684761">07861 684761</a></li>
+                        <li><i class="fa fa-phone"></i><a href="tel:03301336535">0330 133 6535</a></li>
                         <li><i class="fa fa-envelope"></i><a href="mailto:info.virtodry@gmail.com">info.virtodry@gmail.com</a></li>
                     </ul>
 
